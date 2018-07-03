@@ -1,0 +1,13 @@
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+
+### ide ###
+.vscode/
+.idea/
+
+*-error.log
+
+node_modules

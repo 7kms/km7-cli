@@ -1,0 +1,51 @@
+{
+  "name": "ndog-cli",
+  "version": "1.0.0",
+  "keywords": ["react","vue","custom boilerplate"],
+  "description": "Command line interface for rapid NewsDog frontend development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ndog": "bin/ndog"
+  },
+  "author": "km7",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "consolidate": "^0.15.1",
+    "download": "^7.0.0",
+    "download-git-repo": "^1.0.2",
+    "eslint": "^5.0.1",
+    "eslint-plugin-node": "^6.0.1",
+    "fs-extra": "^6.0.1",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "metalsmith": "^2.3.0",
+    "minimatch": "^3.0.4",
+    "multimatch": "^2.1.0",
+    "ora": "^2.1.0",
+    "read-metadata": "^1.0.0",
+    "request": "^2.87.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.5.0",
+    "tildify": "^1.2.0",
+    "user-home": "^2.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "homepage": "https://github.com/tangl2014/ndog-cli",
+  "repository": { 
+    "type" : "git",
+     "url" : "https://github.com/tangl2014/ndog-cli.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "staging": {
+    "localCachePath": ".ndog-templates",
+    "onlineTemplate": "https://github.com/tangl2014",
+    "name": "ndog-cli",
+    "remoteRepository": "https://registry.npmjs.org/ndog-cli"
+  }
+}
