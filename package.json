@@ -1,7 +1,11 @@
 {
   "name": "ndog-cli",
-  "version": "1.0.0",
-  "keywords": ["react","vue","custom boilerplate"],
+  "version": "1.0.1",
+  "keywords": [
+    "react",
+    "vue",
+    "custom boilerplate"
+  ],
   "description": "Command line interface for rapid NewsDog frontend development",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,9 +39,9 @@
     "validate-npm-package-name": "^3.0.0"
   },
   "homepage": "https://github.com/tangl2014/ndog-cli",
-  "repository": { 
-    "type" : "git",
-     "url" : "https://github.com/tangl2014/ndog-cli.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangl2014/ndog-cli.git"
   },
   "engines": {
     "node": ">=8.0.0"
