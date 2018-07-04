@@ -42,14 +42,14 @@
   "homepage": "https://github.com/tangl2014/ndog-cli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tangl2014/ndog-cli.git"
+    "url": "git+https://github.com/tangl2014/ndog-cli.git"
   },
   "engines": {
     "node": ">=8.0.0"
   },
   "staging": {
     "localCachePath": ".ndog-templates",
-    "onlineTemplate": "https://github.com/tangl2014",
+    "onlineTemplate": "tangl2014",
     "name": "ndog-cli",
     "remoteRepository": "https://registry.npmjs.org/ndog-cli"
   }
