@@ -25,6 +25,8 @@ const getTemplatePath = localPath.getTemplatePath
 
 const exists = fs.existsSync
 
+const {name:cliName} = require('../config')
+
 /**
  * Usage.
  */
@@ -40,10 +42,15 @@ program.on('--help', () => {
     console.log('  Examples:')
     console.log()
     console.log(chalk.gray('    # create a new project with an official template'))
-    console.log('    $ ndog react-ssr my-project')
+    console.log(`    $ ${cliName} react-ssr my-project`)
+    console.log(`    $ ${cliName} react-spa my-project`)
+    console.log(`    $ ${cliName} koa-mongo my-project`)
+    console.log()
+    console.log(chalk.gray('    # create a new template'))
+    console.log(`$ ${cliName} template my-project`)
     console.log()
     console.log(chalk.gray('    # create a new project straight from a github template'))
-    console.log('    $ ndog username/repo my-project')
+    console.log(`$ ${cliName} username/repo my-project`)
     console.log()
 })
 
